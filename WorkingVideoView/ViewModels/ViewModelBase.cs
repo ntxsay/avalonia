@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using ReactiveUI;
 
-namespace VideoViewVLC.ViewModels
+namespace WorkingVideoView.ViewModels
 {
     public class ViewModelBase : ReactiveObject
     {

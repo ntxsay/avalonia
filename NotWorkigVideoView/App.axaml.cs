@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using VideoViewVLC.ViewModels;
-using VideoViewVLC.Views;
+using NotWorkigVideoView.ViewModels;
+using NotWorkigVideoView.Views;
 
-namespace VideoViewVLC
+namespace NotWorkigVideoView
 {
     public class App : Application
     {
@@ -21,9 +21,22 @@ namespace VideoViewVLC
                 {
                     DataContext = new MainWindowViewModel(),
                 };
+                desktop.Exit += OnExit;
             }
 
             base.OnFrameworkInitializationCompleted();
+        }
+        
+        void OnExit(object sender, ControlledApplicationLifetimeExitEventArgs e)
+        {
+            if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+            {
+                if (desktop.MainWindow.Content is VideoViewUserControl userControl && userControl.DataContext is VideoViewUserControlViewModel vm)
+                {
+                    vm.Dispose();
+                    
+                }
+            }
         }
     }
 }

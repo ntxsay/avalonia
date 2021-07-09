@@ -1,9 +1,9 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using VideoViewVLC.ViewModels;
+using WorkingVideoView.ViewModels;
 
-namespace VideoViewVLC
+namespace WorkingVideoView
 {
     public class ViewLocator : IDataTemplate
     {

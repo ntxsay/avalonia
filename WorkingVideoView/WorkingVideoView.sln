@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingVideoView", "WorkingVideoView.csproj", "{B8CA4C06-723A-48EE-94B9-8DD5C39CD97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotWorkigVideoView", "..\NotWorkigVideoView\NotWorkigVideoView.csproj", "{4E63B9EE-EE86-4E46-965B-FCCA56B54485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8CA4C06-723A-48EE-94B9-8DD5C39CD97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CA4C06-723A-48EE-94B9-8DD5C39CD97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CA4C06-723A-48EE-94B9-8DD5C39CD97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CA4C06-723A-48EE-94B9-8DD5C39CD97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E63B9EE-EE86-4E46-965B-FCCA56B54485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E63B9EE-EE86-4E46-965B-FCCA56B54485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E63B9EE-EE86-4E46-965B-FCCA56B54485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E63B9EE-EE86-4E46-965B-FCCA56B54485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC920C9D-9F06-456B-8547-98C07553B53F}
+	EndGlobalSection
+EndGlobal

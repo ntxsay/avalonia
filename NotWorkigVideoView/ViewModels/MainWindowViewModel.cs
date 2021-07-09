@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VideoViewVLC.ViewModels
+namespace NotWorkigVideoView.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
